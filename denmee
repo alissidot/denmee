@@ -1,0 +1,14 @@
+md= {
+    "nbr": "nasılsınız",
+    "eyw": "eyvallah",
+    "ok": "TAMAM",
+    "ii": "iyi",
+    "idk": "bilmiom",
+}
+kelime=input("Çeviri isteyen yazsın (küçük harflerle)")
+if kelime in md.keys():
+     print(md[kelime])
+else:
+    print("çeviri servisi kullanılamamakta")
+import random
+print(random.choice(md.values()))
